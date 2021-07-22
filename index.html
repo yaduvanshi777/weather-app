@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="container my-5 mx-auto">
+        <h1 class="text-muted text-center my-4">Weather App</h1>
+
+        <form class="change-location my-4 text-center text-muted">
+            <label for="city">Enter a city name for weather information</label>
+            <input type="text" name="city" class="form-control p-4">
+        </form>
+        <div class="card shadow-lg rounded d-none">
+            <div class="img-container">
+                <img src="https://via.placeholder.com/400x300" class="time card-img-top">
+            </div>
+            <div class="icon bg-light mx-auto text-center">
+                <img src="" alt="">
+            </div>
+            <div class="text-muted text-uppercase text-center details">
+                <h5 class="my-3">City name</h5>
+                <div class="my-3">Weather condition</div>
+                <div class="display-4 my-4">
+                    <span>temp</span>
+                    <span>&deg;C</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div>
+            <a href="https://www.linkedin.com/in/vivek-kumar777/" target="_blank"><img src="./icons/linkedin.png"
+                    alt="linkedin" class="social-icon"></a>
+            <a href="https://github.com/yaduvanshi777" target="_blank"><img src="./icons/github.png" alt="github"
+                    class="social-icon"></a>
+            <a href="https://stackoverflow.com/users/14455576/vivek-kumar?tab=profile" target="_blank"><img
+                    src="./icons/stack.png" alt="stackoverflow" class="social-icon"></a>
+            <a href="https://yaduvanshi777.github.io/vivek-portfolio/" target="_blank"><img src="./icons/website.png"
+                    alt="website" class="social-icon"></a>
+        </div>
+
+        <div>Weather app built with ❤️ using &nbsp;
+            <img class="ich" src="./icons/css3.png" alt="css icon"> &nbsp;
+            <img class="ich" src="./icons/html5.png" alt="html icon"> &nbsp;
+            <img class="ich" src="./icons/js.png" alt="js icon"> &nbsp;&nbsp;
+            <img class="ich" src="./icons/vscode.png" alt="vscode icon"> &nbsp; and hosted on &nbsp;
+            <img class="ich" src="./icons/github.png" alt="github icon">
+        </div>
+
+        <div>
+
+            &copy; 2021 by VIVEK KUMAR
+
+        </div>
+    </footer>
+    <script src="scripts/imagepaths.js"></script>
+    <script src="scripts/forecast.js"></script>
+
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>
